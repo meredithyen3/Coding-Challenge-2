@@ -20,3 +20,17 @@ function calculateAverage(scores) {
 }
 const average = calculateAverage(scores);
 console.log(average);
+
+
+// Task 3: Working with Objecs
+let employee = {
+    name: "Violet",
+    age: 8,
+    department: "Agriculture",
+    isActive: true
+};
+console.log(employee);
+department = "Biology";
+console.log(department); 
+employee.position = "Manager";
+console.log(employee.position)
