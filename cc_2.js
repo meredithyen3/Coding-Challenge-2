@@ -34,3 +34,15 @@ department = "Biology";
 console.log(department); 
 employee.position = "Manager";
 console.log(employee.position)
+
+
+// Task 4: Array of Objects
+let customers = [
+    {name:
+
+        "Citrus", email: "citrus03@gmail.com", purchaseAmount: 175 },
+        {name: "Harper", email: "harper02@gmail.com", purchaseAmount: 200 },
+        {name: "Sunshine", email: "sunshine04@gmail.com", purchaseAmount: 250 }
+];
+console.log(customers);
+customers.push({name: "Nettles", email: "nettles2015@gmail.com", purchaeAmount: 400 })
