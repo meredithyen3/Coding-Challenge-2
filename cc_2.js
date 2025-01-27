@@ -46,3 +46,22 @@ let customers = [
 ];
 console.log(customers);
 customers.push({name: "Nettles", email: "nettles2015@gmail.com", purchaeAmount: 400 })
+
+
+// Task 5: Object Processing System
+let order = {
+    orderId: 748394594382,
+    customerName: "Diamond",
+    amount: 1000
+};
+console.log(order);
+
+function calculateTax(price, taxRate) {
+    return price * taxRate;
+}
+
+let price = 1000;
+let taxRate = 0.10; // 10% tax
+
+let taxAmount = calculateTax(price, taxRate);
+console.log(`Tax Amount: $${taxAmount}`); 
